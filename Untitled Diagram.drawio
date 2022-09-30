@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T10:15:53.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" version="20.0.1" etag="DgtUxlYDDQsp_8Ux3wsx" type="github"><diagram id="iUkTSEhSGEGDoOPF7czA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-30T07:52:33.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="Y7RHO5PzpNyK_ZNzkwJV" version="20.0.3" type="github">
+  <diagram id="iUkTSEhSGEGDoOPF7czA" name="Page-1">
+    <mxGraphModel dx="1037" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-1" value="Gerrit Repo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-5" value="Check the version in master branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99.5" y="130" as="sourcePoint" />
+            <mxPoint x="99.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-7" value="clone" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="KkGMn35QbOr7Ux6NAiB7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-8" value="swep_domain_lib" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="KkGMn35QbOr7Ux6NAiB7-6">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-49" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-9" value="To local" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="KkGMn35QbOr7Ux6NAiB7-6">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99.5" y="320" as="sourcePoint" />
+            <mxPoint x="99.5" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-12" value="If No" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="KkGMn35QbOr7Ux6NAiB7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-13" value="Do nothing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-16" value="if&amp;nbsp; Yes" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="289.5" as="sourcePoint" />
+            <mxPoint x="260" y="289.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkGMn35QbOr7Ux6NAiB7-18" value="Build wheels and deploy the package to Artifactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
